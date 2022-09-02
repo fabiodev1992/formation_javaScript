@@ -22,3 +22,5 @@ while(a<tabnom.length){
 console.log(` le nom des céréales en miniscule: ${cereales[j]}`);
 j++;
  }while(j<cereales.length);
+ //condition if end if else
+ 
