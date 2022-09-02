@@ -46,3 +46,28 @@ j++;
  }else if(ages <= 20){
    console.log(`bonjour mineure`);
  }
+ //condition switch s'utilise quant on a à utiliser plusieur if
+ //pongramme sui retourne le mois en fonction du chiffr
+let numdate = 7;
+switch(numdate){
+   case 1:
+   console.log(`Janvier`);
+   break;
+   case 2:
+   console.log(`Février`);
+   break;
+   case 3:
+   console.log(`Mars`);
+   break;
+   case 4:
+   console.log(`Avril`);
+   break;
+   case 5:
+   console.log(` Mai`);
+   break;
+   case 6:
+   console.log(`Juin`);
+   break;
+   default:
+   console.log(`chiffre ne correspond en au qu'un moi`)
+}
