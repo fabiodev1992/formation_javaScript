@@ -29,3 +29,20 @@ j++;
  if(psw == 'secret1232'){
    console.log('votre mot de pass est correcte');
  }
+ let heure = 14;
+ let age = 25;
+ if(age >= 25){
+   console.log('vous pouvez visitez la page');
+ }
+
+ //if(heure < 12){
+   //console.log('bonjour');
+ //}
+ let ages = 2;
+ if(ages <= 2){
+   console.log(`bonjour bébé`);
+ }else if (ages <= 10) {
+   console.log(`bonjour adolesent`);
+ }else if(ages <= 20){
+   console.log(`bonjour mineure`);
+ }
