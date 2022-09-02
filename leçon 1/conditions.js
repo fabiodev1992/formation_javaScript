@@ -71,3 +71,14 @@ switch(numdate){
    default:
    console.log(`chiffre ne correspond en au qu'un moi`)
 }
+//la portée des variables
+//nombre secret
+let nombresercret = [1, 12, 30, 65, 50,];
+for (let i = 1; nombresercret.length ; i++) {
+   let secret = 65;
+   if (nombresercret[i] == secret){
+      console.log(`le nombre secret est à la position: ${i}`);
+   }
+   //console.log(` et il est: ${secret}`);
+}
+//utilisation des fonction
