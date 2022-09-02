@@ -23,4 +23,9 @@ console.log(` le nom des céréales en miniscule: ${cereales[j]}`);
 j++;
  }while(j<cereales.length);
  //condition if end if else
- 
+ //if(cindition){
+   //instruction
+ let psw = 'secret123';
+ if(psw == 'secret1232'){
+   console.log('votre mot de pass est correcte');
+ }
