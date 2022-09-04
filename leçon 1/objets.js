@@ -44,5 +44,19 @@ perssonne.login();
 //objet this contexte. sa permet de retourner touus les 
 //valeurs de l'objet
 perssonne.afficheblogs();
+//array of objet
+//objet stock des propriété
+let blogs = [
+{id: 1,
+ titre: 'tableaus',
+ contenu: 'tout savoir sur leas bases',
+ lik: 8
+}
+];
+blogs.forEach((blogs) => {
+
+	console.log(`${blogs.id}, ${blogs.titre}, 
+		${blogs.lik}`);
+})
 
 
