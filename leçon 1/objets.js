@@ -58,5 +58,7 @@ blogs.forEach((blogs) => {
 	console.log(`${blogs.id}, ${blogs.titre}, 
 		${blogs.lik}`);
 })
+Math.round(1.5);
+
 
 

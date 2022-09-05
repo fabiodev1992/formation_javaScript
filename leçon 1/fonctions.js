@@ -56,3 +56,4 @@ console.log(`la surface en arow fuction est: ${arowsurf(4, 5)}`);
 //arow fuction peux s'écrire également
 let arfuncsimple = (l, L) => l*L;
 console.log(`la surface avec arow function simplifier set: ${arfuncsimple(4, 8)}`);
+
