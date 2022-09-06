@@ -48,6 +48,23 @@ function utilisacons(nom, email, amis){
 	}
 
 }
-//extention de l'bjet
+//extention de l'objet
 let utilcon = new utilisacons('adovi', 'adjo@gmail.com', 'vivi');
-alert(`${utilcon.nom} à pour mail ${utilcon.email}`);
+console.log(`${utilcon.nom} à pour mail ${utilcon.email}`);
+//abstraction des objets consite à ce baser sur l'esentiel
+function employe(nom, age, sexe, salaire){
+	this.nom = 'nom';
+	this.age = 'age';
+	this.sexe = 'sexe';
+	this.salaire = 'salaire';
+	this.infoEmplote = function(){
+		console.log(`nom: ${this.nom}`);
+		console.log(`age: ${this.age}`);
+		console.log(`sexe: ${this.sexe}`);
+		console.log(`salaire: ${this.salaire}`);
+	}
+}
+
+let emp1 = new employe('TOM', 82, 'M', 200000);
+//console.log(`${emp1.nom}`);
+emp1.infoEmplote();
